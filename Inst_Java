@@ -1,0 +1,41 @@
+##instalação Java Path
+$ export JAVA_HOME="/usr/lib/jvm/[java-atual]"
+$ export PATH=$JAVA_HOME/bin:$PATH
+
+##Instalação Gradle
+
+$ mkdir /opt/gradle
+$ cd ...
+$ unzip -d /opt/gradle [arquivo.zip]
+$ ls ...
+$ export PATH=$PATH:/opt/gradle/gradle.../bin
+
+### $ sudo apt purge gradle [outras versões] 
+
+##Instalação Maven
+
+$ mkdir /opt/maven
+$ cd ...
+$ unzip -d /opt/maven apache-maven... [arquivo.zip]
+$ ls ...
+$ export PATH=$PATH:/opt/maven/apache-maven.../bin
+
+
+
+##Instalação IntelliJ
+
+$ cd [local de instalação]
+$ sudo tar -xzf [arquivo.tar.gz] 
+
+
+##Wrapper
+
+	Gradle
+	
+$ gradle wrapper
+$ ./gradlew -v
+	
+	Maven
+	
+$ mvn -N io.takari:maven:wrapper
+$ ./mvnw -v
