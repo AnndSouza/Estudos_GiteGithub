@@ -1,0 +1,35 @@
+- iniciar git
+$ git init
+
+untracked - arquivos que o git não tem ciencia, com comando "git add*" faz com o que o git enxergue os arquivos
+
+tracked -arquivos que o git tem ciencia 
+- unmodified 
+  - Adicionar arquivo
+
+- modified
+  - Edita o arquivo
+
+- stage
+  - Aguardando para commit
+
+
+mostrar arquivos ocultos
+ls -a
+
+configuração de usuário 
+$ git config --global user.email "email"
+$ git config --global user.name [nome]
+$ git config --list
+
+senha ssh
+$ ssh-keygen -t [chavessh] -c [email]
+$ cat [chavessh.pub] (copiar conteúdo e colocar no github)
+$ eval $(ssh-agent -s) mostrará "agent pid [numero]
+$ ssh-add id[numero] sem o .pub
+
+
+$ git add*
+$ git commit -m "[mensagem relacionado ao trabalho feito no arquivo]"
+
+
