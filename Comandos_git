@@ -34,14 +34,18 @@ $ git commit -m "[mensagem relacionado ao trabalho feito no arquivo]"
 
 Branches - ramificação bifurcação de um branch original
 
-objetivo - trabalhar de forma paralela, antes de juntar com a branch principal
+objetivo - trabalhar de forma paralela, antes de juntar com a branch principal, caminhar entre as branches.
 
 merge - fundir ramificação com a branch main
 
 $ git remote -v - mostra as braches
+$ git pull origin main
 
+HEAD - mostra a sua localização, aponta sempre para o ultimo branch valido.
 
- 
+$ git checkout -b nova funcionalidade (se mover de branch ao mesmo tempo que cria )
+
+$ git checkout main - se (move para main de volta) 
 
 
 
