@@ -43,7 +43,7 @@ $ git pull origin main
 
 HEAD - mostra a sua localização, aponta sempre para o ultimo branch valido.
 
-$ git checkout -b nova funcionalidade (se mover de branch ao mesmo tempo que cria )
+$ git checkout -b nova funcionalidade (se mover de branch ao mesmo tempo que cria)
 
 $ git checkout main - se (move para main de volta) 
 
