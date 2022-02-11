@@ -38,4 +38,4 @@ $ ./gradlew -v
 	Maven
 	
 $ mvn -N io.takari:maven:wrapper
-$ ./mvnw -v
+$ ./mvnw -v 
