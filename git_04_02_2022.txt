@@ -1,0 +1,81 @@
+Git CLI
+
+comandos úteis
+
+- mudar de pastas 
+- Listar as pastas
+- Criar pastas /arquivos
+- Deletar pastas /arquivos 
+
+Windows              Unix
+- cd                       - cd  
+- dir                       - ls
+- mkdir                  - mkdir  
+- del / rmdir          - rm - rf
+
+SHA1 - A sigla SHA significa Secure Hash Algorithm (Algoritmo de Hash Seguro), é um conjunto de funções hash criptográficas projetadas éla NSA (Agencia de Segurança Nacional dos EUA). A encriptação  gera conjunto de characteres identificador de 40 dígitos.
+
+Identificar modificação pelo código de encriptação
+$ openssl sha1 [arquivo] = código de 40 char
+
+Objetos fundamentais
+
+tipo Blobs 
+$ echo 'conteudo' | git hash-object --stdin
+> (código de 40 characteres)
+
+echo -e 'conteudo' | openssl sha1 (incorreta)
+> (outro código de 40 char)
+
+$ echo -e 'blob 9\0conteudo' | openssl sha1 (correta)
+> (hash 40 char)
+
+tipo Trees - armazenam blobs - responsável pela montagem dos arquivos.
+
+tree > blob
+tree > tree > blob
+
+Commits - Contém tree e blob, afim de juntar toda a informação
+
+Sistema distrubuido seguro - pela forma de representaçao das sha1 que ocasião do maintaners dos commits serem dificeis de serem extintos.
+
+Segurança - chaves SSH e Tokens
+
+Conceito SSH - segura e encriptada entre duas maquinas, chave publica e chave privada
+
+$ ssh-keygen -t [tipode criptografia(ed25519)] -c [email(o mesmo do github)]
+
+local onde fica armazenado a chave (por padrão)
+$ cd /c/users/[hostname]/,ssh/
+
+para visualizar o arquivo gerado
+$ cat id_[chave.pub] (colar no campo key do github settings)
+
+inicializar ssh
+$ eval $(ssh-agent -s)
+>Agent pid [numero]
+
+$ ssh-add [chave_privada]
+
+$ git clone (ssh)
+
+Token de acesso pessoal 
+
+painel github
+develop setting > personal acess token 
+repo (marcar)
+
+copiar token gerado pois não o verá novamente
+
+$ git clone (https)
+
+colocar token para clonar repositório
+
+
+
+
+Comandos Globais 
+
+Comandos locais
+
+

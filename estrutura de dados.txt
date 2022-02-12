@@ -1,0 +1,141 @@
+Estrutura de Dados e Agoritmos
+
+Part e 1:
+     Estrutura de dados - é uma estrutura organizada de dados na memoria de um computador ou em qualquer dispositivos de armazenamento, de forma que os dados possam ser utilizados de forma correta.
+
+     Algoritmo - é um conjunto de instruções estruturadas e ordenadas, seu objetivo é realizar uma tarefa ou operação específica.
+
+Os algoritmos são utilizadas paa manipular dados nas estruturas de várias formas, como por exemplo, inserir, excluir, procurar  ordenar dados.
+
+Enquanto Arrays nos permite armazenar vários dados de um unico tipo de dado, o recurso de Registro nos permite armazenar mais de um tipo de dado.
+
+Listas - armazenan dados de um determinado tipo em uma ordem especifica. A diferença entre listas e arrays é a de qie listas possuem tamanho ajustavel, enquanto arrays possuem tamanho fixo.
+
+Pilhas - é uma estrutura de dados que serve como uma coleção de elementos, e permite o acesso a somente  um item de dados armazenado - o acesso aos itens de uma pilha é restrita, um item pode ser lido ou removido por vez
+
+LIFO ou UEPS - A estrutura do tipo Pilha LIFO (Last in First out) ou UEPS (Último que Entra Primeiro que Sai), apresenta o seguinte critério: o primeiro elemento a ser retirado é o último que tiver sido inserido. 
+
+FIFO ou PEPS - A estrutura do tipo Pilha FIFO (First in First Out) ou PEPS (Primeiro que Entra Primeiro que Sai), o primeiro elemento a ser retirado é o primeiro que tiver sido inserido.
+
+Filas - A estrutura do tipo Fila admite remoção de elementos e inserção de novos, sujeita à seguinte regra de operação: o elemento removido é o que está na estrutura há mais tempo ou seja, o primeiro objeto inserido na fila é também o primeiro a ser removido seguindo o conceito FIFO.
+
+Arvores - É a estrutura de dados que organiza seus elementos de forma hierárquica, onde existe um elemento que fica no topo da arvore, chamado de raiz e existem os elementos subordinados a ele, que são chamados de nós ou folhas
+
+
+Tabelas hash - É a generalização da idéia de array, porém utiliza uma função denominada hashing para espelhar os elementos, fazendo com que os mesmos fiquem de forma não ordenada dentro do "array" que define a tabela
+
+
+Grafos - São estruturas que permitem programar a relação entre objetos
+
+Os objetos são vertices ou "nós" do grafo
+
+Os relacionamentos são arestas
+
+ Pensamento Computacional - 
+ - Formulação e resolução de problemas 
+ - Sistemático e Eficiente
+
+Escrita leitura, Matematica
+
+Baseado em 4 pilares
+
+Decomposição - Dividir problemas complexos em subproblemas
+
+Reconhecimento - Identificar padrões ou tendecias
+
+Abstração - Extrapolar o conceito do problema para uma forma generalista
+
+Designer de algoritmos - Automatizar, Definir passo a passo a solução do problema.
+
+Processo contínuo 
+
+- Defiinir solução 
+- Testar a solução 
+- Aperfeiçoarmento da solução encontrada
+
+Refinamento -> Teste -> Analise..(ciclica)
+
+Macro 
+
+Analise - Execução da solução e avaliação (refinamento)
+Abstração - Resolução de problemas
+Automatização - Expressão de solução
+
+Variação dos pilares 
+
+- Raciocínio lógico - é uma forma de pensamento estruturado, ou raciocínio, que permite encontrar a conclusão ou determinar a resolução de um problema.
+
+Classificados por 3 tipos
+
+- Indução, Leis e teorias -> Dedução, Previsões e explicações ->Abdução, Premissa. 
+
+- Refinamento - 
+
+Competencias
+
+- Pensamento sistemático
+- Colaboração dentro da equipe 
+- Criatividade e design
+- Facilitador
+
+Aperfeiçoamento - Ato de aperfeiçoar
+
+- Encontrar solução eficiente
+- Otimizar processos
+- Simplificar linhas de códigos 
+-Funções bem definidas
+
+Processo continuo presente em todas as etapas
+
+Vantagens
+
+Maior compreesão 
+Mais eficiencia 
+Menos tempo
+Menos armazenamento
+
+Se aprofundando nos tópicos - Pilares
+
+Decomposição - quebrar o problema, para transformar em problemas menores. Portanto, problemas mais faceis e gerenciaveis
+
+- Análise - Processo de quebrar e determinar partes menores e gerenciaveis
+- Síntese - Combinar os elementos recompondo o problema original
+
+-Ordem de execução de tarefas menores-
+
+Sequencial - Dependencia entre tarefas executadas em "fila"
+Paralelo - Tarefas podem ser executadas comcomitante. ganha em tempo e eficiencia.
+
+Como decompor?
+
+Entenda o problema
+- Deixar problema principal em segundo plano
+
+- Focar nos componetes
+- Indentificar - Caracteristicas e dependencias 
+- Agragar os dados de forma a recompor o problema original e verificar a "Funcionalidade"
+
+Exemplo: criar um app (Desenvolvimento mais eficiente)
+
+- Finalidade   ->
+- Interface      ->                        Definição de
+- Funcionalidade   ->         componentes e etapas
+- Pré-requisitos   ->
+
+Exemplo 2: Artigo (Sequencial ou Paralelo em ordem ou não)
+
+- O que será abordado?   ->
+- Estrutura      ->                                  Definição de
+- Conteúdo de cada tópico   ->    componentes e etapas
+- Textos de conexão   ->
+
+
+
+
+
+
+
+
+
+
+
